@@ -1,7 +1,29 @@
 aid: crowdery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdery.png
 name: Crowdery
-description: Crowdery is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Crowdery was a consumer retail and e-commerce startup backed by a16z,
+  listed on the a16z investment list. Its product inverted the traditional retail sales
+  model: shoppers voted on product designs from a curated set, Crowdery assembled a
+  personalized marketplace from each shopper''s top picks, and the highest-voted products
+  were opened for pre-order at a discount. For brands it offered consumer feedback
+  loops, pre-production demographic analytics, and pre-orders intended to de-risk
+  manufacturing runs. The company never shipped a public API or developer program.
+  As of July 2026 Crowdery appears defunct: the apex domain crowdery.com serves a
+  Doteasy hosting placeholder page, www.crowdery.com still delegates to a decommissioned
+  Heroku prelaunch application that returns 404, and no developer portal, documentation,
+  GitHub organization, or API surface could be found. This profile is retained as a
+  historical a16z portfolio record with no API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/crowdery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +31,39 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- E-Commerce
+- Consumer
+- Marketplace
+- Crowdsourcing
+- Pre-Order
+- Defunct
+- No API
 apis: []
+common:
+- type: Website
+  name: Crowdery Website (parked placeholder)
+  url: https://crowdery.com/
+- type: InvestmentList
+  name: a16z Investment List
+  url: https://a16z.com/investment-list/
+- type: Archive
+  name: Crowdery homepage (Internet Archive, 2013)
+  url: http://web.archive.org/web/20131220212321/http://www.crowdery.com/
+- type: DomainSecurity
+  name: Domain Security Probe
+  url: security/crowdery-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
