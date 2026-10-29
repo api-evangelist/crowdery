@@ -64,35 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Crowdery was a consumer retail and e-commerce startup backed by a16z, listed on the
-[a16z investment list](https://a16z.com/investment-list/). Its product inverted the
-traditional retail sales model: shoppers voted on product designs from a curated set,
-Crowdery assembled a personalized marketplace from each shopper's top picks, and the
-highest-voted products were opened for pre-order at a discount. For brands it offered
-consumer feedback loops, pre-production demographic analytics, and pre-orders intended
-to de-risk manufacturing runs.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: a16z
+Crowdery was a consumer retail and e-commerce startup backed by a16z, listed on the a16z investment list. Its product inverted the traditional retail sales model: shoppers voted on product designs from a curated set, Crowdery assembled a personalized marketplace from each shopper's top picks, and the highest-voted products were opened for pre-order at a discount. For brands it offered consumer feedback loops, pre-production demographic analytics, and pre-orders intended to de-risk manufacturing runs. The company never shipped a public API or developer program. As of July 2026 Crowdery appears defunct: the apex domain crowdery.com serves a Doteasy hosting placeholder page, www.crowdery.com still delegates to a decommissioned Heroku prelaunch application that returns 404, and no developer portal, documentation, GitHub organization, or API surface could be found. This profile is retained as a historical a16z portfolio record with no API surface to enrich.
 
-## Status: defunct — no API surface
+**Areas:** Company · Retail · E-Commerce · Consumer · Marketplace · Crowdsourcing · Pre-Order · Defunct · No API
 
-As of the July 2026 enrichment pass, Crowdery appears defunct and never shipped a
-public API or developer program:
+## Crowdery on APIs.io (historical record)
 
-- `crowdery.com` (apex) serves a Doteasy hosting placeholder page; HTTPS does not respond.
-- `www.crowdery.com` still delegates to `crowdery-prelaunch.herokuapp.com`, a
-  decommissioned Heroku prelaunch app that returns 404.
-- No developer portal, documentation, OpenAPI, GitHub organization, or `/.well-known/`
-  discovery documents were found.
-- The a16z portfolio source record itself flags `is_api_provider: false`.
+Everything profiled for Crowdery is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/crowdery/](https://apis.io/providers/crowdery/)** — or go straight to one of the APIs or properties below.
 
-The last substantive archived homepage is from 2013:
-[web.archive.org snapshot](http://web.archive.org/web/20131220212321/http://www.crowdery.com/).
+### Published properties
 
-Note: the `WISDelft/crowdery-*` GitHub repositories are an unrelated TU Delft academic
-crowdsourcing framework, not this company.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-- `security/crowdery-domain-security.yml` — live DNS/TLS probe (no HTTPS, no DNSSEC,
-  no CAA, no DMARC; SPF present via Mailgun).
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Crowdery Domain Security](https://apis.io/security/crowdery/crowdery-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://crowdery.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Crowdery: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/crowdery/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
